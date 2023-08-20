@@ -22,7 +22,7 @@ header {
         list-style: none;
     }
     .nav-link {
-        color:rgb(11, 11, 11);
+        color:rgb(255, 255, 255);
         font-size: 18px;
         font-weight: 700;
         margin: 0 10px;
@@ -34,8 +34,8 @@ header {
         width:max-content;
     }
     .nav-link:hover {
-        background-color: rgb(120, 69, 69);
-        color: #f45;
+        background-color: rgba(146, 146, 146, 0.608);
+        color: #ffbf00;
     }
     .nav-toggle {
         display:none;
@@ -116,7 +116,7 @@ header {
 }
 .btn-menu {
     h1{
-        color:rgb(221, 89, 1);
+        color:rgb(255, 0, 0);
         font-weight:700;
         font-size: 35px;
     }
@@ -168,9 +168,10 @@ header {
             color: #ffbc0e;
         }
     
-        .map {
+        .map iframe {
             position: relative;
             top: 50px;
+            width: 100%;
         }
         }
 }
@@ -188,118 +189,59 @@ header {
     }
 }
 .title-burger { //comparte clase con menupremium//
-    i {
-        color:rgb(1, 157, 1);
-    }
-    h1{
-        font-size: 150px;
+   h1{
+        font-size: 100px;
         font-weight: 700;
         text-transform: uppercase;
-        color:#f45;
-    }
-    p{
-        font-size: 20px;
-        top: 80px;
-        font-weight: 700;
-        color:rgb(185, 103, 3);
+        color:rgb(248, 0, 0);
     }
 }
-.card { 
-    .card-name{
-        position: relative;
-        width: 90%;
-        height: 90%;
-        box-shadow: 0 5px;
-        background: linear-gradient(transparent 80%, #000000) var (--i);
-        background-size: cover;
-        z-index: 100;
+.container {
+    .card {
+        text-align: center;
+        background-color: #ffbc0e;
     }
-    .card-name h6 {
-        position:absolute;
-        left: 10px;
-        top: 200px;
-        font-size: 25px;
-        font-weight: 900;
-        color: #ffbc0e;
-        visibility:visible;
+    .card-name {
+        border-bottom: 2px solid rgb(252, 0, 21);
+            h6 {
+                font-size: 35px;
+                font-weight: 1000;
+                color:#ff6702;
+            }
     }
-    
-    .card-info {
-        position: absolute;
-        width: 95%;
-        height: 95%;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        top: 0;
-        margin: auto;
-        padding: 15px;
-        background: #ffbc0e;
-        z-index: 90;
-        box-shadow: 0 5px 10px #000;
-        transition: 0.5s;
-
-        .head {
-            border-bottom: 1px solid #bc2211;
-        }
-    
-        .head .title {
+    .content {
+        .title {
             font-size: 20px;
-            font-weight: 700;
-            color:#bc3611;
-            text-align: center;
+            color: rgb(0, 0, 0);
         }
-    
-        .content {
-            margin-top: 0;
-            text-align: center;
+        .list {
+            padding: 15px;
+            border-bottom: 2px solid red;
+            text-decoration: underline;
         }
-    
-        .content .list {
+        .prices {
             position: relative;
-            bottom: 10px;
-            padding: 10px 15px;
-        }
-    
-        .content .list li {
-            font-size: 12px;
-        }
-    
-        .action {
-            position: relative;
-            margin-top: 5%;
-            bottom: 25%;
-        }
-    
-        .btn {
-            position: absolute;
-            padding: 4px;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-bottom: 10px;
-            color:black;
-            width: 80%;
-            text-decoration: none;
-            text-align: center;
-            background: #bc2211;
-        }
-    
-        .btn:hover {
-            color:#f8bc07;
-            background: #fff;
+            left: 60px; 
+
+            table {
+                border-spacing: 10px;
+            }
         }
     }
-    .prices {
+    .action {
         position: relative;
-        left: 40px;
-        bottom: 20px;
-        border-collapse:separate;
-        border-spacing: 10px;
-
-        th, td {
-            padding: 2px;
-            text-align: center;
+        left: 77px;
+        padding: 10px;
+        background-color: rgb(252, 0, 21);
+        width: 50%;
+        
+        a {
+            color: #fff;
+            text-decoration: none;
         }
+    }
+    .action:hover {
+        background: black;
     }
 }
 //contacto//
@@ -338,10 +280,8 @@ header {
         outline: 0px;
     }
     textarea {
-        max-width: 530px;
-        min-width: 530px;
-        min-height: 140px;
-        max-height: 150px;
+        width: 518px;
+        height: 100px;
     }
     .btn-enviar {
         padding: 15px;

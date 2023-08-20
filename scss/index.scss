@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
 
 //Variables//
-$color-fondo:black;
-$color-header:rgb(120, 54, 6);
-$color-footer:rgb(120, 54, 6);
+$color-fondo:rgb(0, 0, 0);
+$color-header:rgb(192, 12, 12);
+$color-footer:rgb(192, 12, 12);
 
 * {
     margin: 0;
@@ -132,8 +132,7 @@ header {
         position: relative;
         left: 55px;
         margin-bottom: 50px;
-        width: 50%;
-        height:50%;
+        width: 80%;
     }
     
     .pie-de-pagina {

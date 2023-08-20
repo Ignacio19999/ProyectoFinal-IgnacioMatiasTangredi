@@ -1,9 +1,11 @@
 @use './anidacion';
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
- // Variables //
- $color-header:rgb(120, 54, 6);
- $color-background:linear-gradient(coral,grey);
- $color-footer:rgb(120, 54, 6);
+ 
+// Variables //
+$color-header:rgb(192, 12, 12);
+$color-footer:rgb(192, 12, 12);
+$color-background:linear-gradient(coral,grey);
+
  
 * {
     margin: 0;
@@ -27,7 +29,7 @@ header {
     max-width: 1200px;
     position: relative;
     align-items: center;
-    top: 100px;
+    top: 150px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
@@ -38,8 +40,9 @@ header {
 }
 .pie-de-pagina{
     width: 100%;
+    padding: 30px;
     position: relative;
-    top: 165px;
+    top: 300px;
     background-color:$color-footer;
 
     .grupo-1{
@@ -180,5 +183,31 @@ header {
         .grupo-1 {
             gap: 1%;
         }
+    }
+}
+@media (max-width: 560px) {
+    * {
+        margin: 0;
+    }
+    body {
+        width: 100%;
+    }
+    .container-form {
+        .info-form {
+            text-align: center;
+            
+            p{
+                margin-left: 50px;
+            }
+        }
+        
+        textarea {
+            width: 325px;
+            height: 200px;
+            margin-left: 35px;
+        }
+    }
+    .pie-de-pagina {
+        padding: 0px;
     }
 }
