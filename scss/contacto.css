@@ -209,7 +209,7 @@ header .nav-toggle {
 }
 .container .action {
   position: relative;
-  left: 77px;
+  left: 70px;
   padding: 10px;
   background-color: rgb(252, 0, 21);
   width: 50%;
@@ -462,5 +462,23 @@ header {
   }
   .pie-de-pagina {
     padding: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .container-form {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .container-form .campo {
+    position: relative;
+    width: 300px;
+  }
+  .container-form textarea {
+    position: static;
+    width: 300px;
+  }
+  .container-form .btn-enviar {
+    left: 120px;
   }
 }/*# sourceMappingURL=contacto.css.map */

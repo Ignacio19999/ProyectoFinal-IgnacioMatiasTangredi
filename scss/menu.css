@@ -209,7 +209,7 @@ header .nav-toggle {
 }
 .container .action {
   position: relative;
-  left: 77px;
+  left: 70px;
   padding: 10px;
   background-color: rgb(252, 0, 21);
   width: 50%;
@@ -396,5 +396,45 @@ header {
   }
   .title-burger h1 {
     font-size: 120px;
+  }
+}
+@media (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+  }
+  header img {
+    width: 100px;
+  }
+  .nuestro-menu {
+    justify-content: stretch;
+  }
+  .nuestro-menu h2 {
+    font-size: 25px;
+  }
+  .nuestro-menu p {
+    font-size: 14px;
+  }
+  .title-burger h1 {
+    font-size: 80px;
+  }
+  .container .card {
+    width: 280px;
+    overflow-x: hidden;
+  }
+  .container .card img {
+    width: 280px;
+    margin-right: 30px;
+  }
+  .container .prices thead {
+    position: relative;
+    right: 10px;
+  }
+  .container .prices tbody {
+    position: relative;
+    right: 10px;
   }
 }/*# sourceMappingURL=menu.css.map */

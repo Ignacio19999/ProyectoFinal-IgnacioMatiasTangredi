@@ -211,3 +211,24 @@ header {
         padding: 0px;
     }
 }
+
+@media (max-width: 360px) {
+    .container-form {
+        width: 100%;
+        position: relative;
+        right: 100px;
+        .campo {
+            position: relative;
+            width: 300px;
+        }
+        textarea {
+            position:static;
+            width: 300px;
+        }
+
+        .btn-enviar{
+            left: 120px;
+        }
+    }
+
+}

@@ -209,7 +209,7 @@ header .nav-toggle {
 }
 .container .action {
   position: relative;
-  left: 77px;
+  left: 70px;
   padding: 10px;
   background-color: rgb(252, 0, 21);
   width: 50%;
@@ -405,5 +405,55 @@ header {
   }
   .pie-de-pagina .grupo-1 {
     gap: 1%;
+  }
+}
+@media screen and (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+  }
+  header img {
+    width: 100px;
+  }
+  .burger {
+    width: 100%;
+    display: contents;
+    overflow-x: hidden;
+  }
+  .container {
+    display: flexbox;
+  }
+  .btn-menu {
+    margin-bottom: 10px;
+    margin-right: 2px;
+  }
+  .btn-menu h1 {
+    font-size: 14px;
+  }
+  .btn-menu .btn {
+    padding: 4px;
+  }
+  .btn-menu a {
+    font-size: 12px;
+  }
+  .about-us {
+    width: 100%;
+  }
+  .about-us img {
+    width: 300px;
+  }
+  .locate {
+    width: 100%;
+  }
+  .locate iframe {
+    width: 200px;
+    right: 20px;
+    height: 350px;
+  }
+  .pie-de-pagina {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
