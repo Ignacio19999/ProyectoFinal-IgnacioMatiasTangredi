@@ -108,9 +108,10 @@ header .nav-toggle {
 }
 
 .btn-menu h1 {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 35px;
+  display: none;
 }
 .btn-menu a {
   text-decoration: none;
@@ -121,10 +122,10 @@ header .nav-toggle {
   color: rgb(250, 49, 66);
   border: none;
   border-radius: 5px;
-  width: 90px;
-  padding: 10px;
+  width: 200px;
+  padding: 20px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
 }
 .btn-menu .btn:hover {
   background: grey;
@@ -141,6 +142,7 @@ header .nav-toggle {
 }
 .container .about-us p {
   color: #ffbc0e;
+  font-size: 20px;
 }
 .container .locate {
   border: 3px solid rgb(244, 84, 26);
@@ -154,6 +156,7 @@ header .nav-toggle {
 }
 .container .locate p {
   color: #ffbc0e;
+  font-size: 20px;
 }
 .container .locate .map iframe {
   position: relative;
@@ -209,7 +212,7 @@ header .nav-toggle {
 }
 .container .action {
   position: relative;
-  left: 70px;
+  left: 77px;
   padding: 10px;
   background-color: rgb(252, 0, 21);
   width: 50%;

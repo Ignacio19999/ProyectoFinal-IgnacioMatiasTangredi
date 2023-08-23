@@ -10,7 +10,6 @@ $color-footer:rgb(192, 12, 12);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 body {
    font-family:'Titillium Web', sans-serif;
@@ -109,13 +108,12 @@ header {
     }
     .btn-menu {
         position: relative;
-        background: chocolate;
-        border: 1px solid #ffbc0e;
         top: 10px;
         width: 60%;
         
         h1 {
             color: rgb(254, 254, 254);
+            display: block;
         }
     }
     .container {
@@ -127,7 +125,6 @@ header {
             grid-column: 1;
             grid-row: 2;
         }
-        
     }
     .map {
         position: relative;
@@ -135,13 +132,11 @@ header {
         margin-bottom: 50px;
         width: 80%;
     }
-    
     .pie-de-pagina {
         .grupo-1 {
             gap: 1%;
         }
     }
-    
 }
 
 @media (max-width: 420px) {
@@ -159,7 +154,6 @@ header {
     .burger {
         width: 100%;
         display: contents;
-        
     }
     .container {
         display: flexbox;
@@ -187,7 +181,6 @@ header {
     .locate {
         width: 100%;
         
-
         iframe {
             width: 200px;
             right: 20px;
@@ -196,7 +189,6 @@ header {
     }
     .pie-de-pagina {
         width: 100%;
-        
     }
 }
 

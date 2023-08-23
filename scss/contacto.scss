@@ -6,7 +6,6 @@ $color-header:rgb(192, 12, 12);
 $color-footer:rgb(192, 12, 12);
 $color-background:linear-gradient(coral,grey);
 
- 
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +43,7 @@ header {
     position: relative;
     top: 300px;
     background-color:$color-footer;
-
+    
     .grupo-1{
         width: 100%;
         max-width: 1200px;
@@ -54,7 +53,6 @@ header {
         grid-gap: 50px;
         padding: 45px 0px;
     }
-
     section{
         width: 100%;
         height: 100%;
@@ -62,23 +60,19 @@ header {
         justify-content: center;
         align-items: center;
     }
-
     img{
         width: 150px;
         border-radius: 50px;
     }
-
     .box h2{
         color:#e2f1f8;
         margin-bottom: 25px;
         font-size: 20px;
     }
-
     .box p{
         color:#e2f1f8;
         margin-bottom: 10px;
     }
-
     .red-social a{
         display: inline-block;
         text-decoration: none;
@@ -90,13 +84,11 @@ header {
         background-color: #0d2033;
         text-align: center;
     }
-
     .grupo-2{
         padding: 15px 10px;
         text-align: center;
         color: #fff;
     }
-
     .grupo-2 small{
         font-size:15px;
     }
@@ -150,7 +142,6 @@ header {
     .nav-menu_visible {
         left: 0;
     }
-    
     .container-form {
         position: relative;
         right: 85px;
@@ -211,7 +202,6 @@ header {
         padding: 0px;
     }
 }
-
 @media (max-width: 420px) {
     .container-form {
         width: 100%;
@@ -219,15 +209,16 @@ header {
         right: 100px;
         .campo {
             position: relative;
-            width: 300px;
+            width: 350px;
+            margin-left: 5px;
         }
         textarea {
             position:static;
             width: 300px;
+            margin-left: 75px;
         }
-
         .btn-enviar{
-            left: 120px;
+            left: 160px;
         }
     }
 

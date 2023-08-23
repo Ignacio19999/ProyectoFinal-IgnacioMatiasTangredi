@@ -102,13 +102,11 @@ header {
     .swiper {
         width: 100%;
     }
-
     .swiper-slide {
         background-position: center;
         background-size: cover;
         width: 250px;
     }
-
     .swiper-slide img {
         display:block;
         width: 100%;
@@ -116,9 +114,10 @@ header {
 }
 .btn-menu {
     h1{
-        color:rgb(255, 0, 0);
+        color:rgb(255, 255, 255);
         font-weight:700;
         font-size: 35px;
+        display: none;
     }
     a {
         text-decoration: none;
@@ -129,10 +128,10 @@ header {
         color:rgb(250, 49, 66);
         border:none;
         border-radius: 5px;
-        width: 90px;
-        padding: 10px;
+        width: 200px;
+        padding: 20px;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 20px;
     }
     .btn:hover {
         background: grey;
@@ -144,7 +143,6 @@ header {
     .about-us {
         border: 3px solid rgb(244, 84, 26);
         
-        
         h2 {
             color:#f45;
             font-weight: 700;
@@ -152,6 +150,7 @@ header {
         }
         p {
             color:#ffbc0e;
+            font-size: 20px;
         }
     }
     .locate {
@@ -166,14 +165,14 @@ header {
         }
         p {
             color: #ffbc0e;
+            font-size: 20px;
         }
-    
         .map iframe {
             position: relative;
             top: 50px;
             width: 100%;
         }
-        }
+    }
 }
 //menu//
 .nuestro-menu {
@@ -203,6 +202,7 @@ header {
     }
     .card-name {
         border-bottom: 2px solid rgb(252, 0, 21);
+            
             h6 {
                 font-size: 35px;
                 font-weight: 1000;
@@ -230,7 +230,7 @@ header {
     }
     .action {
         position: relative;
-        left: 70px;
+        left: 77px;
         padding: 10px;
         background-color: rgb(252, 0, 21);
         width: 50%;
